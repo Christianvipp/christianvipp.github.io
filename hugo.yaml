@@ -31,7 +31,7 @@ params:
 
   label:
     text: "Christian.V"
-    icon: "https://i.imgur.com/mStB3iJ.jpeg"
+    icon: "/images/hack.jpg"
     iconHeight: 25
 
   # profile-mode
@@ -39,7 +39,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Christian.V
     subtitle: "Penetration Tester V Red Teamer V CTFs"
-    imageUrl: "/static/images/hack.jpg"
+    imageUrl: "/images/hack.jpg"
     imageWidth: 130
     imageHeight: 130
    # imageTitle: dp
@@ -87,7 +87,7 @@ menu:
       weight: 6
     - identifier: blog
       name: ✍️ Blog
-      url: https://sec-fortress.github.io/
+      url: https://christianvipp.github.io/
       weight: 6
 
 pygmentsUseClasses: true
