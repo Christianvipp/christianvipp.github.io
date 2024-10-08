@@ -39,7 +39,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Christian.V
     subtitle: "Penetration Tester V Red Teamer V CTFs"
-    imageUrl: "https://www.freepik.com/free-photo/abstract-techno-background-with-connecting-lines_1117890.htm#query=matrix%20wallpaper&position=34&from_view=keyword&track=ais_hybrid&uuid=f17ef595-0b94-4053-8b66-3bae8c418e28"
+    imageUrl: "/home/opium/christian/Downloads/hack.jpg"
     imageWidth: 130
     imageHeight: 130
    # imageTitle: dp
