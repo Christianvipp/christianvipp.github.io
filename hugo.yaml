@@ -5,16 +5,16 @@ theme: hugo-PaperMod
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: SecFortress
-  description: "Penetration Testing And CTFs."
+  title: Christian.V PortFolio
+  description: "Network,Wireless & Web Hacking"
   keywords: [Blog]
-  author: SecFortress
-  DateFormat: "January 2, 2006"
+  author: Christian.V
+  DateFormat: "January 2, 03"
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
   ShowReadingTime: true
-  ShowShareButtons: false
+  ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -30,7 +30,7 @@ params:
   tocopen: false
 
   label:
-    text: "SecFortress"
+    text: "Christian.V"
     icon: "https://i.imgur.com/mStB3iJ.jpeg"
     iconHeight: 25
 
@@ -38,7 +38,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: SecFortress
-    subtitle: "Penetration Tester X Security Researcher X Avid CTF Player"
+    subtitle: "Penetration Tester V Red Teamer V CTFs"
     imageUrl: "https://i.imgur.com/mStB3iJ.jpeg"
     imageWidth: 130
     imageHeight: 130
@@ -46,9 +46,9 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/Secfortress"
+      url: "https://twitter.com/christianvic0"
     - name: github
-      url: "https://github.com/sec-fortress"
+      url: "https://github.com/christianvipp"
     - name: hackthebox
       url: "https://app.hackthebox.com/profile/623459"
     - name: tryhackme
