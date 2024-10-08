@@ -39,7 +39,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Christian.V
     subtitle: "Penetration Tester V Red Teamer V CTFs"
-    imageUrl: "/home/opium/christian/Downloads/hack.jpg"
+    imageUrl: "/static/images/hack.jpg"
     imageWidth: 130
     imageHeight: 130
    # imageTitle: dp
