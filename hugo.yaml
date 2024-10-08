@@ -2,3 +2,102 @@ baseURL: https://christianvipp.github.io/
 languageCode: en-us
 title: Christian.V
 theme: hugo-PaperMod
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: SecFortress
+  description: "Penetration Testing And CTFs."
+  keywords: [Blog]
+  author: SecFortress
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: true
+  showtoc: true
+  tocopen: false
+
+  label:
+    text: "SecFortress"
+    icon: "https://i.imgur.com/mStB3iJ.jpeg"
+    iconHeight: 25
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: SecFortress
+    subtitle: "Penetration Tester X Security Researcher X Avid CTF Player"
+    imageUrl: "https://i.imgur.com/mStB3iJ.jpeg"
+    imageWidth: 130
+    imageHeight: 130
+   # imageTitle: dp
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/Secfortress"
+    - name: github
+      url: "https://github.com/sec-fortress"
+    - name: hackthebox
+      url: "https://app.hackthebox.com/profile/623459"
+    - name: tryhackme
+      url: "https://tryhackme.com/p/secfortress"
+    - name: Youtube
+      url:  "https://www.youtube.com/@sec-fortress"
+    - name: linkedin
+      url:  "https://www.linkedin.com/in/sci-sec/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: blogs
+      name: 🥷 Hacking
+      url: hacking
+      weight: 3
+    - identifier: tags
+      name: Tags
+      url: tags
+      weight: 5
+    - identifier: search
+      name: Search
+      url: search
+      weight: 6
+    - identifier: whoami
+      name: 🇳🇬 Whoami
+      url: whoami
+      weight: 6
+    - identifier: blog
+      name: ✍️ Blog
+      url: https://sec-fortress.github.io/
+      weight: 6
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
