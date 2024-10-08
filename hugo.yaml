@@ -37,9 +37,9 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: SecFortress
+    title: Christian.V
     subtitle: "Penetration Tester V Red Teamer V CTFs"
-    imageUrl: "https://i.imgur.com/mStB3iJ.jpeg"
+    imageUrl: "https://www.freepik.com/free-photo/abstract-techno-background-with-connecting-lines_1117890.htm#query=matrix%20wallpaper&position=34&from_view=keyword&track=ais_hybrid&uuid=f17ef595-0b94-4053-8b66-3bae8c418e28"
     imageWidth: 130
     imageHeight: 130
    # imageTitle: dp
