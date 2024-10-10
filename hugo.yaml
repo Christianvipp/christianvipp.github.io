@@ -74,7 +74,7 @@ menu:
       weight: 6
     - identifier: About
       name: About
-      url: /about/whoami.md
+      url: whoami.md
       weight: 3
     - identifier: projects-tools
       name: Projects & Tools
