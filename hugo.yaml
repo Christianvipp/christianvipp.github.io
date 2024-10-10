@@ -4,12 +4,12 @@ title: Christian.V
 theme: hugo-PaperMod
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Christian.V PortFolio
-  description: "Network,Wireless & Web Hacking"
+  env: production
+  title: Christian.V Portfolio
+  description: "Network, Wireless & Web Hacking"
   keywords: [Blog]
   author: Christian.V
-  DateFormat: "January 2, 03"
+  dateFormat: "January 2, 2006" # Correct date format to YYYY-MM-DD
   defaultTheme: dark # dark, light
   disableThemeToggle: true
 
@@ -36,13 +36,12 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: true
     title: Christian.V
-    subtitle: "Penetration Tester V Red Teamer V CTFs"
+    subtitle: "Penetration Tester | Red Teamer | CTFs"
     imageUrl: "/images/hack.jpg"
     imageWidth: 130
     imageHeight: 130
-   # imageTitle: dp
 
   socialIcons:
     - name: twitter
@@ -53,41 +52,41 @@ params:
       url: "https://app.hackthebox.com/profile/623459"
     - name: tryhackme
       url: "https://tryhackme.com/p/secfortress"
-    - name: Youtube
-      url:  "https://www.youtube.com/@sec-fortress"
+    - name: youtube
+      url: "https://www.youtube.com/@sec-fortress"
     - name: linkedin
-      url:  "https://www.linkedin.com/in/sci-sec/"
+      url: "https://www.linkedin.com/in/sci-sec/"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
 
 menu:
   main:
-    - identifier: home
+    - identifier: Home
       name: Home
       url: /
       weight: 1
-    - identifier: blogs
-      name: 🥷 Hacking
-      url: hacking
+    - identifier: blog
+      name: Blog
+      url: https://christianvipp.github.io/
+      weight: 6
+    - identifier: About
+      name: About
+      url: /about/whoami.md
       weight: 3
-    - identifier: tags
-      name: Tags
-      url: tags
-      weight: 5
+    - identifier: projects-tools
+      name: Projects & Tools
+      url: /projects-and-tools # Ensure the URL starts with /
+      weight: 4
     - identifier: search
       name: Search
-      url: search
-      weight: 6
-    - identifier: whoami
-      name: 🇳🇬 Whoami
-      url: whoami
-      weight: 6
-    - identifier: blog
-      name: ✍️ Blog
-      url: https://christianvipp.github.io/
+      url: /search # Ensure the URL starts with /
+      weight: 5
+    - identifier: resources
+      name: Resources
+      url: /resources # Ensure the URL starts with /
       weight: 6
 
 pygmentsUseClasses: true
@@ -96,8 +95,8 @@ markup:
     noClasses: false
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
+  home:
+    - HTML
+    - RSS
+    - JSON # Ensure this is necessary
 

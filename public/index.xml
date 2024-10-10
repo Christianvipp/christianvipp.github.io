@@ -6,7 +6,16 @@
     <description>Recent content on Christian.V</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/whoami/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/whoami/</guid>
+      <description>About Me
+Introduction Hello! My name is Olatunbosun Ayodeji Victor. I&amp;rsquo;m a 19-year-old network and web penetration tester with a deep passion for cybersecurity. My journey into this field began four years ago, and it has been an exciting and challenging adventure ever since.
+Education I started my cybersecurity journey by learning the fundamentals from platforms like TryHackMe, HackTheBox, and YouTube. I owe much of my knowledge to top educators such as IPPSEC, John Hammond, HackerSploit, and Cryptcat.</description>
+    </item>
   </channel>
 </rss>
