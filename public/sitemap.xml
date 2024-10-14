@@ -2,18 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-10-07T22:06:05-04:00</lastmod>
+    <loc>http://localhost:33599/portfolio/blogger/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2024-10-07T22:06:05-04:00</lastmod>
+    <loc>http://localhost:33599/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/whoami/</loc>
+    <loc>http://localhost:33599/tags/cms-enumeration/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:33599/tags/file-upload-bypass/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:33599/portfolio/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:33599/tags/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33599/tags/vertical-privilege-escalation/</loc>
+    <lastmod>2024-10-14T16:25:52-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:33599/whoami/</loc>
+  </url><url>
+    <loc>http://localhost:33599/categories/</loc>
   </url>
 </urlset>

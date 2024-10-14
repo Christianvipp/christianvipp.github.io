@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Christian.V</title>
-    <link>http://localhost:33599/</link>
-    <description>Recent content on Christian.V</description>
+    <title>Portfolios on Christian.V</title>
+    <link>http://localhost:33599/portfolio/</link>
+    <description>Recent content in Portfolios on Christian.V</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Oct 2024 16:25:52 -0400</lastBuildDate>
-    <atom:link href="http://localhost:33599/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:33599/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogger</title>
       <link>http://localhost:33599/portfolio/blogger/</link>
@@ -27,15 +27,6 @@ Enumeration: I ran a curl command to the webserver, hoping to get some informati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:33599/portfolio/hub/</guid>
       <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:33599/whoami/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33599/whoami/</guid>
-      <description>About Me
-Introduction Hello! My name is Olatunbosun Ayodeji Victor. I&amp;rsquo;m a 19-year-old network and web penetration tester with a deep passion for cybersecurity. My journey into this field began four years ago, and it has been an exciting and challenging adventure ever since.
-Education I started my cybersecurity journey by learning the fundamentals from platforms like TryHackMe, HackTheBox, and YouTube. I owe much of my knowledge to top educators such as IPPSEC, John Hammond, HackerSploit, and Cryptcat.</description>
     </item>
   </channel>
 </rss>

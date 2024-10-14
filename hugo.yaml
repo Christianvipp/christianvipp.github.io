@@ -88,6 +88,10 @@ menu:
       name: Resources
       url: /resources # Ensure the URL starts with /
       weight: 6
+    - identifier: Portfolio
+      name: Portfolio
+      url: /Portfolio
+      weight: 2
 
 pygmentsUseClasses: true
 markup:

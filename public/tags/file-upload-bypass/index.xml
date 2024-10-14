@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>File Upload Bypass on Christian.V</title>
+    <link>http://localhost:33599/tags/file-upload-bypass/</link>
+    <description>Recent content in File Upload Bypass on Christian.V</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Oct 2024 16:25:52 -0400</lastBuildDate>
+    <atom:link href="http://localhost:33599/tags/file-upload-bypass/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogger</title>
+      <link>http://localhost:33599/portfolio/blogger/</link>
+      <pubDate>Mon, 14 Oct 2024 16:25:52 -0400</pubDate>
+      <guid>http://localhost:33599/portfolio/blogger/</guid>
+      <description>Platform: Proving Grounds
+Level: Easy
+Recon: A rustscan as usual!
+Two open ports 22 and 80, by default, we know that is SSH and HTTP.
+Scanning: Let&amp;rsquo;s go ahead and scan those ports to know which services run on them and their versions.
+SSH and HTTP with their respective versions, and we can deduce the OS is Linux.
+Enumeration: I ran a curl command to the webserver, hoping to get some information from the headers.</description>
+    </item>
+  </channel>
+</rss>
