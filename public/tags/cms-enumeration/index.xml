@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CMS Enumeration on Christian.V</title>
-    <link>http://localhost:33599/tags/cms-enumeration/</link>
+    <link>http://localhost:1313/tags/cms-enumeration/</link>
     <description>Recent content in CMS Enumeration on Christian.V</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Oct 2024 16:25:52 -0400</lastBuildDate>
-    <atom:link href="http://localhost:33599/tags/cms-enumeration/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cms-enumeration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blogger</title>
-      <link>http://localhost:33599/portfolio/blogger/</link>
+      <link>http://localhost:1313/portfolio/blogger/</link>
       <pubDate>Mon, 14 Oct 2024 16:25:52 -0400</pubDate>
-      <guid>http://localhost:33599/portfolio/blogger/</guid>
+      <guid>http://localhost:1313/portfolio/blogger/</guid>
       <description>Platform: Proving Grounds
 Level: Easy
 Recon: A rustscan as usual!

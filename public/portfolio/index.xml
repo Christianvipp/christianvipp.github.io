@@ -2,17 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolios on Christian.V</title>
-    <link>http://localhost:33599/portfolio/</link>
+    <link>http://localhost:1313/portfolio/</link>
     <description>Recent content in Portfolios on Christian.V</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Oct 2024 16:25:52 -0400</lastBuildDate>
-    <atom:link href="http://localhost:33599/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Oct 2024 21:20:16 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>brute</title>
+      <link>http://localhost:1313/portfolio/brute/</link>
+      <pubDate>Tue, 15 Oct 2024 21:20:16 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/brute/</guid>
+      <description>Recon : a quick ping to verify the target is up. the target is up, will run a quick rust scan on the target to find open ports.
+4 open ports, 21,22,80,3306
+will run nmap scan to identify the services and versions running on those ports. the results shows FTP, SSH AND HTTP and MYSQL and their respective versions.
+Enumeration:
+Started enumeration with the ftp server, will attempt to login with an anonymous user.</description>
+    </item>
+    <item>
+      <title>Shakabrah</title>
+      <link>http://localhost:1313/portfolio/shakabrah/</link>
+      <pubDate>Tue, 15 Oct 2024 21:09:13 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/shakabrah/</guid>
+      <description>Platform : PG Level : Easy
+Reconnaissance :
+A simple rustscan to find open ports on target. Scanning :
+Then proceeds to scan those ports for running services and version identification using nmap. Enumeration :
+Visit the website, it has a functionality to ping ips. i will proceed to ping the localhost what happens is that it tries to make a ping request to the specified ip if correct and the output are the ping responses with 4 counts Foothold :</description>
+    </item>
+    <item>
+      <title>Potato</title>
+      <link>http://localhost:1313/portfolio/potato/</link>
+      <pubDate>Tue, 15 Oct 2024 21:03:23 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/potato/</guid>
+      <description>platform : Proving Grounds level : easy
+Recon : i will perform a quick rust-scan to see the available open ports. There are three (3) open ports in running on the target, let&amp;rsquo;s enumerate further to understand what services are running on the target ports and their and versions
+Scanning &amp;amp; Enumeration : i will also run an nmap scan for further enumeration. The scan result came back and we have ssh , http , ftp running on port 2112, and we can see the ftp server contains some files.</description>
+    </item>
+    <item>
+      <title>Gaara</title>
+      <link>http://localhost:1313/portfolio/gaara/</link>
+      <pubDate>Tue, 15 Oct 2024 20:40:51 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/gaara/</guid>
+      <description>Platform : Proving Grounds
+The target is active and responding to the ICMP ping request.
+Recon A quick rust scan to find the open ports on the targets. There are 2 open ports: 22 (SSH) and 80 (HTTP).
+Scanning Run an nmap scan to confirm and identify the versions of those services. Yes, SSH and HTTP. Based on the banners (Debian), this is a Linux server.
+Enumeration Starting with the web server running on port 80.</description>
+    </item>
     <item>
       <title>Blogger</title>
-      <link>http://localhost:33599/portfolio/blogger/</link>
+      <link>http://localhost:1313/portfolio/blogger/</link>
       <pubDate>Mon, 14 Oct 2024 16:25:52 -0400</pubDate>
-      <guid>http://localhost:33599/portfolio/blogger/</guid>
+      <guid>http://localhost:1313/portfolio/blogger/</guid>
       <description>Platform: Proving Grounds
 Level: Easy
 Recon: A rustscan as usual!
@@ -22,11 +64,27 @@ SSH and HTTP with their respective versions, and we can deduce the OS is Linux.
 Enumeration: I ran a curl command to the webserver, hoping to get some information from the headers.</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:33599/portfolio/hub/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:33599/portfolio/hub/</guid>
-      <description></description>
+      <title>Evil-box</title>
+      <link>http://localhost:1313/portfolio/evil-box/</link>
+      <pubDate>Mon, 14 Oct 2024 16:25:52 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/evil-box/</guid>
+      <description>Platform : Proving Grounds Level: Easy
+Reconnaissance: A rustscan as usual to find open ports, 22 and 80 opened.
+Scanning: Performed an nmap scan to find version information on the open ports and operating system identification using the aggressive nmap flag.
+An Apache webserver is hosted on port 80, and SSH is running on port 22 as usual.
+A quick visit to the website shows a default Apache webserver page.</description>
+    </item>
+    <item>
+      <title>Onsystemshelldredd</title>
+      <link>http://localhost:1313/portfolio/onsystemshelldredd/</link>
+      <pubDate>Mon, 14 Oct 2024 16:25:52 -0400</pubDate>
+      <guid>http://localhost:1313/portfolio/onsystemshelldredd/</guid>
+      <description>Platform: Proving Grounds Level: Easy
+Name: Onsystemshelldredd
+Reconnaissance: A quick rustscan shows 2 open ports, 2 and 61000.
+Scanning: I performed an nmap scan on the target to identify the services running, but nmap only identified one port (FTP), and not the other.
+I ran a separate nmap scan against the port, but nmap didn’t identify the service running on port 61000.
+Enumeration: The FTP service on the target had a misconfiguration, allowing anonymous login with a random password.</description>
     </item>
   </channel>
 </rss>

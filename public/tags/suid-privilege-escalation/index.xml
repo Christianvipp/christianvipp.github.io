@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>SUID Privilege Escalation on Christian.V</title>
+    <link>http://localhost:1313/tags/suid-privilege-escalation/</link>
+    <description>Recent content in SUID Privilege Escalation on Christian.V</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 20:40:51 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/suid-privilege-escalation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaara</title>
+      <link>http://localhost:1313/portfolio/gaara/</link>
+      <pubDate>Tue, 15 Oct 2024 20:40:51 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/gaara/</guid>
+      <description>Platform : Proving Grounds
+The target is active and responding to the ICMP ping request.
+Recon A quick rust scan to find the open ports on the targets. There are 2 open ports: 22 (SSH) and 80 (HTTP).
+Scanning Run an nmap scan to confirm and identify the versions of those services. Yes, SSH and HTTP. Based on the banners (Debian), this is a Linux server.
+Enumeration Starting with the web server running on port 80.</description>
+    </item>
+  </channel>
+</rss>

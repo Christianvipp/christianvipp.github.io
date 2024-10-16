@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OnSystemShellDredd.md",
+                "file": "brute.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OnSystemShellDredd.md",
+                "file": "brute.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OnSystemShellDredd.md",
+                "file": "brute.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OnSystemShellDredd.md"
+                "file": "brute.md"
               }
             }
           }
@@ -161,8 +161,23 @@
   },
   "active": "802a0e4c84ac160d",
   "lastOpenFiles": [
-    "Hub.md",
+    "Shakabrah.md",
+    "brute.md",
+    "Potato.md",
+    "Gaara.md",
     "OnSystemShellDredd.md",
-    "Blogger.md"
+    "Evil-box.md",
+    "Blogger.md",
+    "Evil-box one.md",
+    "Hub.md",
+    "Pasted image 20241014195236.png",
+    "Pasted image 20241014194244.png",
+    "Pasted image 20241014193819.png",
+    "Pasted image 20241014193506.png",
+    "Pasted image 20241014191557.png",
+    "Pasted image 20241014191339.png",
+    "Pasted image 20241014190545.png",
+    "Pasted image 20241014185936.png",
+    "Pasted image 20241014184847.png"
   ]
 }

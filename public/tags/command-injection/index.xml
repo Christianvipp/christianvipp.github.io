@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Command Injection on Christian.V</title>
+    <link>http://localhost:1313/tags/command-injection/</link>
+    <description>Recent content in Command Injection on Christian.V</description>
+    <generator>Hugo -- 0.131.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Oct 2024 21:09:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/command-injection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Shakabrah</title>
+      <link>http://localhost:1313/portfolio/shakabrah/</link>
+      <pubDate>Tue, 15 Oct 2024 21:09:13 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/shakabrah/</guid>
+      <description>Platform : PG Level : Easy
+Reconnaissance :
+A simple rustscan to find open ports on target. Scanning :
+Then proceeds to scan those ports for running services and version identification using nmap. Enumeration :
+Visit the website, it has a functionality to ping ips. i will proceed to ping the localhost what happens is that it tries to make a ping request to the specified ip if correct and the output are the ping responses with 4 counts Foothold :</description>
+    </item>
+  </channel>
+</rss>
