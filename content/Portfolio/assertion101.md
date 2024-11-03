@@ -3,8 +3,9 @@
 title = "Assertion101"
 date = 2024-11-03T10:24:00
 draft = false
-tags = 
+tags = ["LFI", "SUID exploitation"]
 +++
+
 Recon :
 
 
@@ -131,8 +132,5 @@ then switch user to Tom and enter the password (Password@973)
 
 got the last flag.. 
 
-Thanks for reading.. 
-
-
-Lfi , suid abuse 
+Thanks for reading..
 
