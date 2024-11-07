@@ -62,9 +62,37 @@
               "icon": "lucide-file",
               "title": "assertion101"
             }
+          },
+          {
+            "id": "03fbf2ae26564597",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assertion101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "assertion101"
+            }
+          },
+          {
+            "id": "4154809c332df532",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assertion101.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "assertion101"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -205,17 +233,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03a2134a67c0517e",
+  "active": "4154809c332df532",
   "lastOpenFiles": [
-    "Blogger.md",
+    "backup.md",
     "assertion101.md",
+    "Blogger.md",
     "images/Pasted.md",
-    "Potato.md",
-    "OnSystemShellDredd.md",
-    "Gaara.md",
-    "Evil-box.md",
-    "brute.md",
     "images",
+    "OnSystemShellDredd.md",
+    "empire-breakout.md",
+    "Potato.md",
+    "Evil-box.md",
+    "DC -4.md",
+    "Gaara.md",
+    "brute.md",
     "Pasted image 20241024182502.png",
     "Pasted image 20241103101150.png",
     "Pasted image 20241103101114.png",
