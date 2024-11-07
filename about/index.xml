@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Abouts on Christian.V</title>
-    <link>http://localhost:1313/about/</link>
-    <description>Recent content in Abouts on Christian.V</description>
-    <generator>Hugo -- 0.131.0</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/about/whoami/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/whoami/</guid>
-      <description>About Me
-Introduction Hello! My name is Olatunbosun Ayodeji Victor. I&amp;rsquo;m a 19-year-old network and web penetration tester with a deep passion for cybersecurity. My journey into this field began four years ago, and it has been an exciting and challenging adventure ever since.
-Education I started my cybersecurity journey by learning the fundamentals from platforms like TryHackMe, HackTheBox, and YouTube. I owe much of my knowledge to top educators such as IPPSEC, John Hammond, HackerSploit, and Cryptcat.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Abouts on Christian.V</title><link>https://christianvipp.org/about/</link><description>Recent content in Abouts on Christian.V</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://christianvipp.org/about/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://christianvipp.org/about/whoami/</link><pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate><guid>https://christianvipp.org/about/whoami/</guid><description>About Me
+Hey there! 👋 I’m Christian Victor, a 19-year-old cybersecurity enthusiast from Nigeria, currently living in Łódź, Poland. Right now, I’m officially a management student at AHE University—because who doesn’t need to manage something? But let’s be real, my heart is all about the thrill of cybersecurity.
+My Journey Into Hacking
+The love for hacking? It started young. I was the kid who set up the family WiFi… and then tried to hack it.</description></item></channel></rss>
