@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/whoami/</loc>
+    <lastmod>2024-11-07T06:15:29-05:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-07T04:26:45+00:00</lastmod>
+    <lastmod>2024-11-07T06:15:29-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/empire-breakout/</loc>
     <lastmod>2024-11-07T04:26:45+00:00</lastmod>
@@ -87,8 +90,6 @@
     <lastmod>2024-10-14T16:25:52-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/portfolio/dc--4/</loc>
-  </url><url>
-    <loc>http://localhost:1313/whoami/</loc>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url>

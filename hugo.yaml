@@ -74,24 +74,25 @@ menu:
       weight: 6
     - identifier: About
       name: About
-      url: whoami.md
+      url: /about/ # Update to /about/ here
       weight: 3
     - identifier: projects-tools
       name: Projects & Tools
-      url: /projects-and-tools # Ensure the URL starts with /
+      url: /projects-and-tools
       weight: 4
     - identifier: search
       name: Search
-      url: /search # Ensure the URL starts with /
+      url: /search
       weight: 5
     - identifier: resources
       name: Resources
-      url: /resources # Ensure the URL starts with /
+      url: /resources
       weight: 6
     - identifier: Portfolio
       name: Portfolio
       url: /Portfolio
       weight: 2
+
 
 pygmentsUseClasses: true
 markup:
