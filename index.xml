@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Christian.V</title><link>https://christianvipp.org/</link><description>Recent content on Christian.V</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Sun, 03 Nov 2024 10:24:00 +0000</lastBuildDate><atom:link href="https://christianvipp.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Assertion101</title><link>https://christianvipp.org/portfolio/assertion101/</link><pubDate>Sun, 03 Nov 2024 10:24:00 +0000</pubDate><guid>https://christianvipp.org/portfolio/assertion101/</guid><description>Recon :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Christian.V</title><link>https://christianvipp.org/</link><description>Recent content on Christian.V</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 04:26:45 +0000</lastBuildDate><atom:link href="https://christianvipp.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Empire-breakout</title><link>https://christianvipp.org/portfolio/empire-breakout/</link><pubDate>Thu, 07 Nov 2024 04:26:45 +0000</pubDate><guid>https://christianvipp.org/portfolio/empire-breakout/</guid><description>Recon :
+rust scan
+5 open ports..
+Scan : Nmap scan
+Http server running on apache, Samba server with V. smbd 4.6.2 and another http server hosted by miniserv on V. 1.981 also with 20000 on 1.830
+OS runs on debian.
+Enumeration :
+Website running on port 80 shows default apache page.
+viewing it source code beneath shows a message.
+Using https:///dcode.fr
+Decrypted it to this string..
+keep it note, might be useful along the line.</description></item><item><title>Assertion101</title><link>https://christianvipp.org/portfolio/assertion101/</link><pubDate>Sun, 03 Nov 2024 10:24:00 +0000</pubDate><guid>https://christianvipp.org/portfolio/assertion101/</guid><description>Recon :
+a quick rustscan to find open ports on the target
+Scanning :
+then a nmap scan for banner grabbing for the open ports
+Enumeration :
+From the nmap scan, we could deduce that OS runs Linux and specifically.
+Nmap scan report for 192.168.170.94 Host is up (0.043s latency). PORT STATE SERVICE VERSION 22/tcp open ssh OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0) | ssh-hostkey: | 2048 6e:ce:aa:cc:02:de:a5:a3:58:5d:da:2b:ef:54:07:f9 (RSA) | 256 9d:3f:df:16:7a:e1:59:58:84:4a:e3:29:8f:44:87:8d (ECDSA) |_ 256 87:b5:6f:f8:21:81:d3:3b:43:d0:40:81:c0:e3:69:89 (ED25519) 80/tcp open http Apache httpd 2.</description></item><item><title>Assertion101</title><link>https://christianvipp.org/portfolio/backup/</link><pubDate>Sun, 03 Nov 2024 10:24:00 +0000</pubDate><guid>https://christianvipp.org/portfolio/backup/</guid><description>Recon :
 a quick rustscan to find open ports on the target
 ![Pasted image 20241024182502.png](/images/Pasted image 20241024182502.png)
 Scanning : then a nmap scan for banner grabbing for the open ports
@@ -32,6 +49,6 @@ Name: Onsystemshelldredd
 Reconnaissance: A quick rustscan shows 2 open ports, 2 and 61000.
 Scanning: I performed an nmap scan on the target to identify the services running, but nmap only identified one port (FTP), and not the other.
 I ran a separate nmap scan against the port, but nmap didn’t identify the service running on port 61000.
-Enumeration: The FTP service on the target had a misconfiguration, allowing anonymous login with a random password.</description></item><item><title/><link>https://christianvipp.org/portfolio/images/pasted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://christianvipp.org/portfolio/images/pasted/</guid><description/></item><item><title/><link>https://christianvipp.org/whoami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://christianvipp.org/whoami/</guid><description>About Me
+Enumeration: The FTP service on the target had a misconfiguration, allowing anonymous login with a random password.</description></item><item><title/><link>https://christianvipp.org/portfolio/dc-4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://christianvipp.org/portfolio/dc-4/</guid><description/></item><item><title/><link>https://christianvipp.org/whoami/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://christianvipp.org/whoami/</guid><description>About Me
 Introduction Hello! My name is Olatunbosun Ayodeji Victor. I&amp;rsquo;m a 19-year-old network and web penetration tester with a deep passion for cybersecurity. My journey into this field began four years ago, and it has been an exciting and challenging adventure ever since.
 Education I started my cybersecurity journey by learning the fundamentals from platforms like TryHackMe, HackTheBox, and YouTube. I owe much of my knowledge to top educators such as IPPSEC, John Hammond, HackerSploit, and Cryptcat.</description></item></channel></rss>
