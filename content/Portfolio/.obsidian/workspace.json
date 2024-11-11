@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "assertion101"
             }
+          },
+          {
+            "id": "3709ed2c2dea77f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pyrat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pyrat"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -233,8 +247,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4154809c332df532",
+  "active": "3709ed2c2dea77f4",
   "lastOpenFiles": [
+    "Shakabrah.md",
+    "Pyrat.md",
+    "Potato.md",
+    "empire-breakout.md",
     "about.md",
     "about",
     "backup.md",
@@ -243,8 +261,6 @@
     "images/Pasted.md",
     "images",
     "OnSystemShellDredd.md",
-    "empire-breakout.md",
-    "Potato.md",
     "Evil-box.md",
     "DC -4.md",
     "Gaara.md",
@@ -260,7 +276,6 @@
     "Pasted image 20241103092231.png",
     "Pasted image 20241103090035.png",
     "Assertion101",
-    "Shakabrah.md",
     "Evil-box one.md",
     "Hub.md"
   ]

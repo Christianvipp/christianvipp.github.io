@@ -6,8 +6,22 @@
     <description>Recent content in Portfolios on Christian.V</description>
     <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Nov 2024 04:26:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Nov 2024 06:01:49 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pyrat</title>
+      <link>http://localhost:1313/portfolio/pyrat/</link>
+      <pubDate>Mon, 11 Nov 2024 06:01:49 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/pyrat/</guid>
+      <description>recon :
+rustscan to find open ports. 2 opened ports..
+scanning :
+nmap scan to identify services and versions.. ssh and HTTP server running simple http python server..
+Enumeration :
+Visit the web server running on port 8000
+Try fuzzing, nothing
+checking with burp, the simple http server version, made some research on it and realized there was a github convo based on it.. saw a poc and tried to recreate it on my own end to understand the attack, seemed like i was confident with that route but did not work.</description>
+    </item>
     <item>
       <title>Empire-breakout</title>
       <link>http://localhost:1313/portfolio/empire-breakout/</link>
