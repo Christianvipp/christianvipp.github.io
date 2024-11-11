@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Christian.V</title><link>https://christianvipp.org/</link><description>Recent content on Christian.V</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 04:26:45 +0000</lastBuildDate><atom:link href="https://christianvipp.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Empire-breakout</title><link>https://christianvipp.org/portfolio/empire-breakout/</link><pubDate>Thu, 07 Nov 2024 04:26:45 +0000</pubDate><guid>https://christianvipp.org/portfolio/empire-breakout/</guid><description>Recon :
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Christian.V</title><link>https://christianvipp.org/</link><description>Recent content on Christian.V</description><generator>Hugo -- 0.118.2</generator><language>en-us</language><lastBuildDate>Mon, 11 Nov 2024 06:01:49 +0000</lastBuildDate><atom:link href="https://christianvipp.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Pyrat</title><link>https://christianvipp.org/portfolio/pyrat/</link><pubDate>Mon, 11 Nov 2024 06:01:49 +0000</pubDate><guid>https://christianvipp.org/portfolio/pyrat/</guid><description>recon :
+rustscan to find open ports. 2 opened ports..
+scanning :
+nmap scan to identify services and versions.. ssh and HTTP server running simple http python server..
+Enumeration :
+Visit the web server running on port 8000
+Try fuzzing, nothing
+checking with burp, the simple http server version, made some research on it and realized there was a github convo based on it.. saw a poc and tried to recreate it on my own end to understand the attack, seemed like i was confident with that route but did not work.</description></item><item><title>Empire-breakout</title><link>https://christianvipp.org/portfolio/empire-breakout/</link><pubDate>Thu, 07 Nov 2024 04:26:45 +0000</pubDate><guid>https://christianvipp.org/portfolio/empire-breakout/</guid><description>Recon :
 rust scan
 5 open ports..
 Scan : Nmap scan
