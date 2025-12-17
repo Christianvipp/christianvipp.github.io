@@ -123,12 +123,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "brute.md",
+                "file": "assertion101.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "brute"
+              "title": "assertion101"
             }
           }
         ],
@@ -151,7 +151,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,8 +185,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -274,24 +274,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49bca596bf46cc27",
+  "active": "c53185c3aab400a7",
   "lastOpenFiles": [
     "backup.md",
-    "assertion101.md",
-    "Shakabrah.md",
-    "Pyrat.md",
-    "Potato.md",
+    "Blogger.md",
+    "brute.md",
+    "Creative.md",
+    "Evil-box.md",
     "empire-breakout.md",
+    "Gaara.md",
+    "OnSystemShellDredd.md",
+    "Potato.md",
+    "Pyrat.md",
+    "Shakabrah.md",
+    "assertion101.md",
     "about.md",
     "about",
-    "Blogger.md",
     "images/Pasted.md",
     "images",
-    "OnSystemShellDredd.md",
-    "Evil-box.md",
     "DC -4.md",
-    "Gaara.md",
-    "brute.md",
     "Pasted image 20241024182502.png",
     "Pasted image 20241103101150.png",
     "Pasted image 20241103101114.png",
