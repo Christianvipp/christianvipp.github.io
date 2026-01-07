@@ -12,12 +12,12 @@ Recon :
 
 a quick rustscan to find open ports on the target
 
-![Pasted image 20241024182502.png](/images/Pasted-image-20241024182502.png)
+![Pasted-image 20241024182502.png](/images/Pasted-image-20241024182502.png)
 
 Scanning : 
 then a nmap scan for banner grabbing for the open ports
 
-![Pasted image 20241024182934.png](/images/Pasted-image-20241024182934.png)
+![Pasted-image 20241024182934.png](/images/Pasted-image-20241024182934.png)
 
 ```
 # Nmap 7.94SVN scan initiated Thu Oct 24 18:25:45 2024 as: /usr/lib/nmap/nmap -p 22,80 -sCV -oN assertion.txt 192.168.170.94
@@ -47,25 +47,25 @@ There is a apache web server running, would enumerate it.
 
 The website is about fitness. 
 
-![Pasted image 20241024203759.png](/images/Pasted-image-20241024203759.png)
+![Pasted-image 20241024203759.png](/images/Pasted-image-20241024203759.png)
 
 
 
 
 fuzzing for hidden endpoints 
 
-![Pasted image 20241024203907.png](/images/Pasted-image-20241024203907.png)
+![Pasted-image 20241024203907.png](/images/Pasted-image-20241024203907.png)
 
 /pages shows this php files.
 
-![Pasted image 20241024203723.png](/images/Pasted-image-20241024203723.png)
+![Pasted-image 20241024203723.png](/images/Pasted-image-20241024203723.png)
 
 From the main page, clicked on the about-us 
 
-![Pasted image 20241024204155.png](/images/Pasted-image-20241024204155.png)
+![Pasted-image 20241024204155.png](/images/Pasted-image-20241024204155.png)
 
 Test for lfi 
-![Pasted image 20241024204233.png](/images/Pasted-image-20241024204233.png)
+![Pasted-image 20241024204233.png](/images/Pasted-image-20241024204233.png)
 
 using payload of /etc/passwd,there is an error "file does not exist"
 
@@ -83,25 +83,25 @@ simple detailed explanation on how it works..
 
 
 
-![Pasted image 20241101164653.png](/images/Pasted-image-20241101164653.png)
+![Pasted-image 20241101164653.png](/images/Pasted-image-20241101164653.png)
 
 going 1 step from the html directory, the local.txt file 
 
-![Pasted image 20241101170919.png](/images/Pasted-image-20241101170919.png)
+![Pasted-image 20241101170919.png](/images/Pasted-image-20241101170919.png)
 
 Next, to attempt privilege escalation to the user..
 
 importing linpeas 
 
-![Pasted image 20241101173401.png](/images/Pasted-image-20241101173401.png)
+![Pasted-image 20241101173401.png](/images/Pasted-image-20241101173401.png)
 
 There is unknown binary, will enumerate more..
 
-![Pasted image 20241101173511.png](/images/Pasted-image-20241101173511.png)
+![Pasted-image 20241101173511.png](/images/Pasted-image-20241101173511.png)
 
 great
 
-![Pasted image 20241103092231.png](/images/Pasted-image-20241103092231.png)
+![Pasted-image 20241103092231.png](/images/Pasted-image-20241103092231.png)
 
 
 the `/usr/bin/aria2c` executable, which is a command line download utility. We can use it to overwrite some important files. For example, we can use it to overwrite the root’s authorized_keys file.
@@ -109,15 +109,15 @@ the `/usr/bin/aria2c` executable, which is a command line download utility. We
 
 It can be used read files as well or 
 
-![Pasted image 20241103090035.png](/images/Pasted-image-20241103090035.png)
+![Pasted-image 20241103090035.png](/images/Pasted-image-20241103090035.png)
 
 read it normally.. 
-![Pasted image 20241103101114.png](/images/Pasted-image-20241103101114.png)
+![Pasted-image 20241103101114.png](/images/Pasted-image-20241103101114.png)
 
 
 in this scenario, will copy the existing passwd file and add a new user with root rights and copy to the target to the /etc directory using the aria2c binary.
 
-![Pasted image 20241103101150.png](/images/Pasted-image-20241103101150.png)
+![Pasted-image 20241103101150.png](/images/Pasted-image-20241103101150.png)
 
 
 
@@ -125,11 +125,11 @@ in this scenario, will copy the existing passwd file and add a new user with roo
 ```
 
 
-![Pasted image 20241103100413.png](/images/Pasted-image-20241103100413.png)
+![Pasted-image 20241103100413.png](/images/Pasted-image-20241103100413.png)
 
 then switch user to Tom and enter the password (Password@973)
 
-![Pasted image 20241103100632.png](/images/Pasted-image-20241103100632.png)
+![Pasted-image 20241103100632.png](/images/Pasted-image-20241103100632.png)
 
 got the last flag.. 
 
