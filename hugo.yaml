@@ -1,4 +1,4 @@
-baseURL:  https://christianvipp.github.io/
+baseURL: https://christianvipp.github.io/
 languageCode: en-us
 title: Christian.V
 theme: hugo-PaperMod
@@ -9,32 +9,21 @@ params:
   description: "Network, Wireless & Web Hacking"
   keywords: [Blog]
   author: Christian.V
-  dateFormat: "January 2, 2006" # Correct date format to YYYY-MM-DD
-  defaultTheme: dark # dark, light
+  dateFormat: "January 2, 2006"
+  defaultTheme: dark
   disableThemeToggle: true
 
+  # Essential for PaperMod
   ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: false
-  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: true
   showtoc: true
-  tocopen: false
 
   label:
     text: "Christian.V"
     icon: "/images/hack.jpg"
     iconHeight: 25
 
-  # profile-mode
   profileMode:
     enabled: true
     title: Christian.V
@@ -57,51 +46,35 @@ params:
     - name: linkedin
       url: "https://www.linkedin.com/in/sci-sec/"
 
-  cover:
-    hidden: true
-    hiddenInList: true
-    hiddenInSingle: true
-
 menu:
   main:
     - identifier: Home
       name: Home
       url: /
       weight: 1
+    - identifier: Portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 2
     - identifier: blog
       name: Blog
-      url: https://christianvipp.github.io/
-      weight: 6
-    - identifier: About
-      name: About
-      url: /about/ # Update to /about/ here
+      url: /posts/  # Updated to point to your posts folder
       weight: 3
     - identifier: projects-tools
       name: Projects & Tools
-      url: /projects-and-tools
+      url: /projects-and-tools/
       weight: 4
-    - identifier: search
-      name: Search
-      url: /search
-      weight: 5
     - identifier: resources
       name: Resources
-      url: /resources
+      url: /resources/
+      weight: 5
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 6
-    - identifier: Portfolio
-      name: Portfolio
-      url: /Portfolio
-      weight: 2
-
-
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
 
 outputs:
   home:
     - HTML
     - RSS
-    - JSON # Ensure this is necessary
-
+    - JSON
