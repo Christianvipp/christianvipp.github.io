@@ -1,0 +1,6 @@
+{{- $src := .Destination -}}
+{{- if (strings.HasPrefix $src "Pasted image") -}}
+    <img src="/images/{{ $src }}" alt="{{ .Text }}" />
+{{- else -}}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+{{- end -}}
