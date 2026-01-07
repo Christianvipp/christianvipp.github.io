@@ -6,7 +6,6 @@ categories: [""]
 tags: []
 ---
 
-Here's an improved version of your note, structured for better clarity and detail:
 
 # Include - Penetration Test Walkthrough
 
